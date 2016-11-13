@@ -1,0 +1,13 @@
+.example-fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+
+.divider {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.PFToolbar {
+    background-color: transparent;
+}

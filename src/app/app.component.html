@@ -1,17 +1,16 @@
-<h1>
-  {{title}}
+    <md-toolbar class="PFToolbar">
+        <span>
+        <h1>
+            {{title}}
+        </h1>
+        </span>
+        <span class="example-fill-remaining-space"></span>
 
-</h1>
-<button md-raised-button>{{title}}</button>
+        <span><a routerLinkActive="true" routerLink="/tournaments">Start</a></span>
+        <span class="divider"> | </span>
+        <span><a routerLink="/admin" routerLinkActive="true">Admin</a></span>
+        <span class="divider"> | </span>
+        <span><a href="http://www.google.be">About me</a></span>
 
-
-<button md-raised-button class="md-raised md-warn">
-  Warn
-</button>
-
-<i class="fa fa-camera-retro"></i>
-<button md-raised-button><span class="fa fa-camera-retro"></span></button>
-
-<button md-fab>
-  <span class="fa fa-camera-retro"></span>
-</button>
+    </md-toolbar>
+    <router-outlet></router-outlet>
